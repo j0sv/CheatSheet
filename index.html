@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jonas HTML Cheat Sheet</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<h1>Jonas HTML Cheat Sheet</h1>
+
+<div class="container">
+
+<h2>Basic structure of html page and comment</h2>
+<p class="code">Code:</p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;!--The &lt;head&gt; element can include a title 
+		for the document, scripts, styles, meta 
+		information, and more. --&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;!--The &lt;body&gt; element contains all the contents 
+		of an HTML document. --&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<h2>Link</h2>
+<p class="code">Code:</p>
+<pre>
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot;&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Sofia&quot; 
+rel=&quot;stylesheet&gt;
+</pre>
+
+<h2>Script</h2>
+<p class="code">Code:</p>
+<pre>
+&lt;script src=&quot;myscripts.js&quot;&gt;&lt;/script&gt;
+</pre>
+
+<h2>Title</h2>
+<p class="code">Code:</p>
+<pre>
+&lt;title&gt;Jonas HTML Cheat Sheet&lt;/title&gt;
+</pre>
+
+<h2>Headers</h2>
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+
+<p class="code">Code:</p>
+<pre>
+&lt;h1&gt;Header 1&lt;/h1&gt;
+&lt;h2&gt;Header 2&lt;/h2&gt;
+&lt;h3&gt;Header 3&lt;/h3&gt;
+&lt;h4&gt;Header 4&lt;/h4&gt;
+</pre>
+
+<h2>Hyperlink</h2>
+<a href="http://craftacademy.se" target="_blank">www.craftacademy.se</a>
+<p class="code">Code:</p>
+<pre>
+&lt;a href=&quot;http://craftacademy.se&quot; target=&quot;_blank&quot;&gt;
+	www.craftacademy.se
+&lt;/a&gt;
+
+Target:
+_blank=new page
+</pre>
+
+<h2>Image</h2>
+<img src="https://assets.craftacademy.se/images/logo/ca_basic_logo_320x40.png" alt="Craftacadamy logo">
+<p class="code">Code:</p>
+<pre>
+&lt;img src="URL" alt="description of image"&gt;
+</pre>
+
+<h2>Strong</h2>
+<strong>text</strong>
+<br />
+<p class="code">Code:</p>
+<pre>
+&lt;strong&gt;text&lt;/strong&gt;
+</pre>
+
+<h2>Emphasize</h2>
+<em>text</em>
+<br />
+<p class="code">Code:</p>
+<pre>
+&lt;em&gt;text&lt;/em&gt;
+</pre>
+
+<h2>Div</h2>
+<div class="border">text</div>
+<p class="code">Code:</p>
+<pre>
+&lt;div class=&quot;border&quot;&gt;text&lt;/div&gt;
+</pre>
+
+<h2>Span</h2>
+<span class="border">Text</span>
+<p class="code">Code:</p>
+<pre>
+&lt;span  class=&quot;border&quot;&gt;Text&lt;/span&gt;
+</pre>
+
+<h2>Unordered List</h2>
+<ul>
+	<li>First bullet in list</li>
+	<li>Second bullet in list</li>
+</ul>
+
+<p class="code">Code:</p>
+<pre>
+&lt;ul&gt;
+	&lt;li&gt;First bullet in list&lt;/li&gt;
+	&lt;li&gt;Second bullet in list&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+<h2>Ordered List</h2>
+<ol>
+	<li>First item in list</li>
+	<li>Second item in list</li>
+</ol>
+
+<p class="code">Code:</p>
+<pre>
+&lt;ol&gt;
+	&lt;li&gt;First item in list&lt;/li&gt;
+	&lt;li&gt;Second item in list&lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+
+<h2>Table</h2>
+<table>
+  <tr>
+    <th>Table Head 1</th>
+    <th>Table Head 2</th>
+  </tr>
+  <tr>
+    <td>Cell 1, Row 1</td>
+    <td>Cell 2, Row 1</td>
+  </tr>
+  <tr>
+    <td>Cell 1, Row 2</td>
+    <td>Cell 2, Row 2</td>
+  </tr>  
+</table>
+  <br />
+  <p class="code">Code:</p>
+<pre>
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Table Head 1&lt;/th&gt;
+    &lt;th&gt;Table Head 2&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Cell 1, Row 1&lt;/td&gt;
+    &lt;td&gt;Cell 2, Row 1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Cell 1, Row 2&lt;/td&gt;
+    &lt;td&gt;Cell 2, Row 2&lt;/td&gt;
+  &lt;/tr&gt;  
+&lt;/table&gt;
+</pre>
+
+<h2>Form</h2>
+
+<form action="URL" method="get">
+	<span class="space">
+		<label for="first_name">First Name:</label>
+	</span>
+	<input type="text" name="first_name" id="first_name" value="" maxlength="100">
+	<br /><br />
+	<span class="space">
+		<label for="last_name">Last Name:</label>
+	</span>
+	<input type="text" name="last_name" id="last_name" value="" maxlength="100">
+	<br /><br />
+	<span class="space">
+		<label for="male">Male</label>
+	</span>
+	<input type="radio" name="gender" id="male" value="male">
+	<br />
+	<span class="space">
+		<label for="female">Female</label>
+	</span>
+	<input type="radio" name="gender" id="female" value="female">
+	<br />
+	<span class="space">
+		<label for="other">Other</label>
+	</span>
+	<input type="radio" name="gender" id="other" value="other">
+	<br />
+	<br />
+	<span class="space">
+		<input type="submit" value="Submit">
+	</span>
+</form>
+
+<p class="code">Code:</p>
+<pre>
+&lt;form action=&quot;URL&quot; method=&quot;get&quot;&gt;
+&#x9;&lt;span class=&quot;space&quot;&gt;
+&#x9;&#x9;&lt;label for=&quot;first_name&quot;&gt;First Name:&lt;/label&gt;
+&#x9;&lt;/span&gt;
+&#x9;&lt;input type=&quot;text&quot; name=&quot;first_name&quot; id=&quot;first_name&quot; value=&quot;&quot; maxlength=&quot;100&quot;&gt;
+&#x9;&lt;br /&gt;&lt;br /&gt;
+&#x9;&lt;span class=&quot;space&quot;&gt;
+&#x9;&#x9;&lt;label for=&quot;last_name&quot;&gt;Last Name:&lt;/label&gt;
+&#x9;&lt;/span&gt;
+&#x9;&lt;input type=&quot;text&quot; name=&quot;last_name&quot; id=&quot;last_name&quot; value=&quot;&quot; maxlength=&quot;100&quot;&gt;
+&#x9;&lt;br /&gt;&lt;br /&gt;
+&#x9;&lt;span class=&quot;space&quot;&gt;
+&#x9;&#x9;&lt;label for=&quot;male&quot;&gt;Male&lt;/label&gt;
+&#x9;&lt;/span&gt;
+&#x9;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;male&quot; value=&quot;male&quot;&gt;
+&#x9;&lt;br /&gt;
+&#x9;&lt;span class=&quot;space&quot;&gt;
+&#x9;&#x9;&lt;label for=&quot;female&quot;&gt;Female&lt;/label&gt;
+&#x9;&lt;/span&gt;
+&#x9;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;female&quot; value=&quot;female&quot;&gt;
+&#x9;&lt;br /&gt;
+&#x9;&lt;span class=&quot;space&quot;&gt;
+&#x9;&#x9;&lt;label for=&quot;other&quot;&gt;Other&lt;/label&gt;
+&#x9;&lt;/span&gt;
+&#x9;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;other&quot; value=&quot;other&quot;&gt;
+&#x9;&lt;br /&gt;
+&#x9;&lt;br /&gt;
+&#x9;&lt;span class=&quot;space&quot;&gt;
+&#x9;&#x9;&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+&#x9;&lt;/span&gt;
+&lt;/form&gt;
+</pre>
+
+</div>
+
+</body>
+</html>
