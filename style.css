@@ -1,0 +1,41 @@
+pre{
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  overflow: auto;
+  width: auto;
+  padding: 5px;
+  background-color: #eee;
+  width: 650px!ie7;
+  padding-bottom: 20px!ie7;
+  max-height: 700px;
+}
+
+.container {
+	max-width: 700px;
+	border
+}
+
+* {
+	font-family: verdana, arial, serif;
+}
+
+p.code {
+	margin-bottom: 0px;
+	font-size: 12px;
+}
+
+span.border, div.border {
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+span.space {
+	width: 120px;
+	text-align: right;
+	display: inline-block;
+}
+
+table,th,td {
+ border:1px solid black;
+}
